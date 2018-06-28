@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,600,600i');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Futura', Helvetica, Arial, sans-serif; 
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+h1, h2 {
+    font-family: 'Raleway';
+}
+
+h1 {
+    font-size: 1.6em;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+input {
+    font-size: 20px;
+    width: 100%;
+    border-radius: 4px;
+    border-top-color: #8bdcff;
+    border-left-color: #8bdcff;
+    border-bottom-color: lightblue;
+    border-right-color: lightblue;
+}
+
+input#submit-train {
+    color: #fff;
+    font-size: 23px;
+    font-variant: small-caps;
+    background-color: #498486;
+    margin: 12px 5px 5px;
+    padding: 4px 12px;
+    border: none;
+    cursor: pointer;
+    width: auto;
+}
+input#submit-train:hover {
+    background-color: #56999c;
+}
+input#submit-train:focus {
+    background-color: #b0c6ce;
+} 
+
+
+header {
+    color: #fff;
+    font-style: italic;
+    letter-spacing: 1px;
+    padding: 12px 5px 8px 8%;
+    width: 100%;
+    background-color: #356161;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#train-table {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 50px;
+    border: 6px cadetblue double;
+    margin: 15px auto;
+}
+
+#train-table .table-cell.table-header {
+    color: #fff;
+    background-color: cadetblue;
+    font-variant: small-caps;
+    border-bottom: none;
+}
+#train-table .table-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 2px lightblue solid;
+}
+
+.train-form {
+    border: 6px cadetblue double;
+    padding: 15px;
+}
+
+.train-form p {
+    margin: 15px auto 5px;
+}
